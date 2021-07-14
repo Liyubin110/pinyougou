@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="w">
+<!--        header-->
+        <div class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+        </div>
+<!--        registerarea-->
+        <div class="registerarea">
+            <h3>
+                注册新用户
+                <em>我有账号,去<a href="login.html">登录</a></em>
+            </h3>
+            <div class="reg_form">
+                <form action="demo.php">
+                    <ul>
+                        <li>
+                            <label for="reg_iphone">手机号&nbsp;:</label>
+                            <input type="text" class="inp" id="reg_iphone">
+                            <span class="error">
+                            <i class="error_ico"></i>
+                            手机号码格式不正确，请从新输入
+                        </span>
+                        </li>
+                        <li>
+                            <label for="reg_yanzhen">短信验证码&nbsp;:</label>
+                            <input type="text" class="inp" id="reg_yanzhen">
+                        </li>
+                        <li>
+                            <label for="reg_password">登录密码&nbsp;:</label>
+                            <input type="text" class="inp" id="reg_password">
+                            <span class="error">
+                            <i class="error_ico"></i>
+                            密码不少于6位数，请从新输入
+                        </span>
+                        </li>
+                        <li class="safe">
+                            安全强度
+                            <em class="ruo">弱</em>
+                            <em class="zhong">中</em>
+                            <em class="qiang">强</em>
+                        </li>
+                        <li>
+                            <label for="reg_second_pas">确认密码&nbsp;:</label>
+                            <input type="text" class="inp" id="reg_second_pas">
+                            <span class="error">
+                            <i class="error_ico"></i>
+                            密码不一致，请从新输入
+                        </span>
+                            <span class="success"></span>
+                        </li>
+                        <li class="agree">
+                            <input type="checkbox" name="" id="">
+                            同意协议并注册
+                            <a href="#">《协议》</a>
+                        </li>
+                        <li>
+                            <input type="submit" value="完成注册" class="over">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+<!--        footer-->
+        <div class="footer">
+                <p class="mod_copyright_links">
+                    <a href="">关于我们</a><span>|</span>
+                    <a href="">联系我们</a><span>|</span>
+                    <a href="">联系客服</a><span>|</span>
+                    <a href="">商家入驻</a><span>|</span>
+                    <a href="">营销中心</a><span>|</span>
+                    <a href="">手机品优购</a><span>|</span>
+                    <a href="">友情链接</a><span>|</span>
+                    <a href="">销售联盟</a><span>|</span>
+                    <a href="">品优购社区</a><span>|</span>
+                    <a href="">品优购公益</a><span>|</span>
+                    <a href="">English Site</a><span>|</span>
+                    <a href="">Contact U</a>
+                </p>
+                <p>
+                    地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn
+                </p>
+                <p>
+                    京ICP备08001421号京公网安备110108007702
+                </p>
+        </div>
+    </div>
+</body>
+</html>
